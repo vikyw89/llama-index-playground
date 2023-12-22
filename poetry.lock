@@ -1123,6 +1123,24 @@ files = [
 typing-extensions = ">=4.6.0,<4.7.0 || >4.7.0"
 
 [[package]]
+name = "pypdf"
+version = "3.17.3"
+description = "A pure-python PDF library capable of splitting, merging, cropping, and transforming PDF files"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "pypdf-3.17.3-py3-none-any.whl", hash = "sha256:1f77682d95dc6308517caa96e267628f747100634ec43476166763a226320817"},
+    {file = "pypdf-3.17.3.tar.gz", hash = "sha256:70c072218e3729218676bdf107e921fa49d1838c2f46056ce26d495c7e58f641"},
+]
+
+[package.extras]
+crypto = ["PyCryptodome", "cryptography"]
+dev = ["black", "flit", "pip-tools", "pre-commit (<2.18.0)", "pytest-cov", "pytest-socket", "pytest-timeout", "pytest-xdist", "wheel"]
+docs = ["myst_parser", "sphinx", "sphinx_rtd_theme"]
+full = ["Pillow (>=8.0.0)", "PyCryptodome", "cryptography"]
+image = ["Pillow (>=8.0.0)"]
+
+[[package]]
 name = "python-dateutil"
 version = "2.8.2"
 description = "Extensions to the standard Python datetime module"
@@ -1723,4 +1741,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "240ae28ea851d58bce8b4117b619c65b6ec18889b790ee6ed1d04bc76d3fac9a"
+content-hash = "26856c45f1da01fefbfe09a89a2b11448c03b420cb532cfd638b81ba3b528ecc"
