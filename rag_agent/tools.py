@@ -7,9 +7,9 @@ def multiply(a: int, b: int) -> int:
     return a * b
 
 
-def add(a: int, b: int) -> int:
-    """Add two integers and returns the result integer"""
-    return a + b
+def name() -> str:
+    """find user name"""
+    return "viky"
 
 
 def useless(a: int, b: int) -> int:
@@ -18,7 +18,7 @@ def useless(a: int, b: int) -> int:
 
 
 multiply_tool = FunctionTool.from_defaults(fn=multiply, name="multiply")
-add_tool = FunctionTool.from_defaults(fn=add, name="add")
+add_tool = FunctionTool.from_defaults(fn=name, name="name")
 useless_tools = [
     FunctionTool.from_defaults(fn=useless, name=f"useless_{str(idx)}")
     for idx in range(100)

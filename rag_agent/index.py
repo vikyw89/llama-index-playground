@@ -1,9 +1,6 @@
 async def gen():
     from agent import agent
-    response = await agent.astream_chat(
-        "What is 121 + 8? Once you have the answer, use that number to write a"
-        " story about a group of mice."
-    )
+    response = await agent.astream_chat("answer me")
 
     response_gen = response.response_gen
 
