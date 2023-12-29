@@ -5,8 +5,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from llama_index import VectorStoreIndex, SimpleDirectoryReader
-
 import os.path
 from llama_index import (
     VectorStoreIndex,

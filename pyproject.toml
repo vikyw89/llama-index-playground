@@ -9,6 +9,12 @@ readme = "README.md"
 python = "^3.10"
 llama-index = "^0.9.20"
 python-dotenv = "^1.0.0"
+pypdf = "^3.17.3"
+docarray = {extras = ["hnswlib"], version = "^0.40.0"}
+rank-bm25 = "^0.2.2"
+matplotlib = "^3.8.2"
+ipython = "^8.19.0"
+tiktoken = "^0.5.2"
 
 
 [build-system]
