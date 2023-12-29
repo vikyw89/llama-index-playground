@@ -15,6 +15,9 @@ rank-bm25 = "^0.2.2"
 matplotlib = "^3.8.2"
 ipython = "^8.19.0"
 tiktoken = "^0.5.2"
+beautifulsoup4 = "^4.12.2"
+langchain = "^0.0.352"
+wikipedia = "^1.4.0"
 
 
 [build-system]
